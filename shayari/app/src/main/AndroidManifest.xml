@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.intel.shayari">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Categories" />
+        <activity
+            android:name=".bewafa"
+            android:label="Bewafa Shayari" />
+        <activity
+            android:name=".birthday"
+            android:label="Birthday Shayari" />
+        <activity
+            android:name=".diwali"
+            android:label="Diwali Shayari" />
+        <activity
+            android:name=".dosti"
+            android:label="Dosti Shayari" />
+        <activity
+            android:name=".funny"
+            android:label="Funny Shayari" />
+        <activity
+            android:name=".love"
+            android:label="Love Shayari" />
+        <activity
+            android:name=".patriotic"
+            android:label="Patriotic Shayari" />
+        <activity
+            android:name=".sharabi"
+            android:label="Sharabi Shayari" />
+        <activity
+            android:name=".romantic"
+            android:label="Romantic Shayari" />
+        <activity
+            android:name=".mohabbat"
+            android:label="Mohabbat Shayari" />
+        <activity
+            android:name=".prem"
+            android:label="Prem Shayari" />
+        <activity
+            android:name=".pyaar"
+            android:label="Pyaar Shayari" />
+        <activity
+            android:name=".ishq"
+            android:label="Ishq Shayari" />
+        <activity
+            android:name=".gham"
+            android:label="Gham Shayari" />
+        <activity
+            android:name=".first_activity"
+            android:label="Sher&apos;O Shayari">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bookmark"
+            android:label="@string/title_activity_bookmark"></activity>
+        <activity
+            android:name=".share_pic"
+            android:label="@string/title_activity_share_pic"></activity>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent"/>
+    </application>
+
+</manifest>

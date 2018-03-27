@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.intel.shayari.first_activity"
+    android:background="@drawable/graphics"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/l1"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Shayrana!"
+        android:textSize="70dp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_below="@+id/l1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/like"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:background="@drawable/like"
+        tools:ignore="ButtonStyle,RtlHardcoded"
+        android:layout_marginBottom="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="66dp"
+        android:layout_marginEnd="66dp" />
+
+    <Button
+        android:id="@+id/categories"
+        android:layout_width="100dp"
+        android:layout_height="81dp"
+        android:background="@drawable/category"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_alignTop="@+id/like"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/feather1"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/categories"
+        android:layout_alignStart="@+id/categories" />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/adview"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4612668368413938/2825692058"/>
+
+
+</RelativeLayout>

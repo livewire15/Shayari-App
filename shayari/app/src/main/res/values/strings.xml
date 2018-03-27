@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">shayari</string>
+    <string name="img" />
+    <string name="bewafa_shayari">Bewafa Shayari</string>
+    <string name="_10">10</string>
+    <string name="string_10">string_10</string>
+    <string name="share_as_picture">Share as Picture</string>
+    <string name="pyaar_karne_ka_hunar_hamein_nahi_aata_n_isliye_pyaar_ki_baazi_hum_haar_gaye_n_hamari_zindagi_se_unhe_bahot_pyaar_tha_n_shayad_isiliye_wo_hamein_zinda_hi_maar_gaye">Pyaar karne ka hunar hamein nahi aata,  Isliye pyaar ki baazi hum haar gaye,  Hamari zindagi se unhe bahot pyaar tha,  Shayad isiliye wo hamein zinda hi maar gaye..</string>
+    <string name="share_as_text">Share as Text</string>
+    <string name="button">Button</string>
+    <string name="button2">Button2</string>
+    <string name="as_picture">as Picture</string>
+    <string name="as_text">as Text</string>
+    <string name="title_activity_first_activity">first_activity</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="title_activity_bookmark">Bookmark</string>
+    <string name="title_activity_share_pic">share_pic</string>
+    <string name="share">Share</string>
+</resources>

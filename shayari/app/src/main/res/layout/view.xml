@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:maxHeight="80dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgview"
+        android:contentDescription="@string/img"
+        android:src="@drawable/bewafa"
+        android:layout_alignParentTop="true"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/imgview"
+        android:gravity="center"
+        android:text="@string/bewafa_shayari"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textview1"
+        android:background="#C19A6B"
+        android:gravity="center"
+        android:text="@string/string_10"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/moon"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="Pyaar karne ka hunar hamein nahi aata,
+Isliye pyaar ki baazi hum haar gaye,\n
+    Hamari zindagi se unhe bahot pyaar tha,\n
+    Shayad isiliye wo hamein zinda hi maar gaye.."
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:text="@string/share"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/pyaar_karne_ka_hunar_hamein_nahi_aata_n_isliye_pyaar_ki_baazi_hum_haar_gaye_n_hamari_zindagi_se_unhe_bahot_pyaar_tha_n_shayad_isiliye_wo_hamein_zinda_hi_maar_gaye"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:baselineAligned="false"
+    android:weightSum="2"
+    android:layout_below="@+id/textview1"
+    android:layout_alignRight="@+id/textview1"
+    android:layout_alignEnd="@+id/textview1"
+    android:id="@+id/linearLayout2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/logo"
+            android:onClick="btn1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/logo12"
+            android:onClick="btn2"
+            android:layout_weight="0.18" />
+
+
+    </LinearLayout>
+</RelativeLayout>
